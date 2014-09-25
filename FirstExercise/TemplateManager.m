@@ -1,4 +1,5 @@
 #import "TemplateManager.h"
+#import "Template.h"
 
 @implementation TemplateManager {
 	NSMutableDictionary *_templates;
@@ -12,21 +13,12 @@
 	return self;
 }
 
-- (void)defineName:(NSString *)name template:(NSString *)template {
+- (void)defineName:(NSString *)name template:(Template *)template {
 	[_templates setObject:template forKey:name];
 }
 
--(NSString *)fill:(NSString *)templateName values:(NSDictionary *)values {
-	NSString *template = _templates[templateName];
-	NSMutableString *result = [template mutableCopy];
-	for (NSString *placeholder in [values allKeys]) {
-		NSString *toBeReplaced = [NSString stringWithFormat:@"{%@}", placeholder];
-		NSRange range = [result rangeOfString:toBeReplaced options:0];
-		if (range.location != NSNotFound) {
-			[result replaceCharactersInRange:range withString:values[placeholder]];
-		}
-	}
-	return result;
+- (Template *)getTemplateByName:(NSString *)name {
+	return _templates[name];
 }
 
 @end

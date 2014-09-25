@@ -22,8 +22,13 @@
 		26E20CB319D41DA500E91E90 /* StringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E20CB219D41DA500E91E90 /* StringTest.m */; };
 		26E20CB919D41FA400E91E90 /* ContainsWhitespaceMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E20CB819D41FA400E91E90 /* ContainsWhitespaceMatcher.m */; };
 		26E20CBC19D4417300E91E90 /* ObjectWithDateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E20CBB19D4417300E91E90 /* ObjectWithDateTest.m */; };
-		26E20CBE19D4430B00E91E90 /* TemplateManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E20CBD19D4430B00E91E90 /* TemplateManagerTest.m */; };
 		26E20CC119D4432700E91E90 /* TemplateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E20CC019D4432700E91E90 /* TemplateManager.m */; };
+		26E20CC519D4495100E91E90 /* FunctionalDecomposedTemplateManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E20CC419D4495100E91E90 /* FunctionalDecomposedTemplateManagerTest.m */; };
+		26E20CC819D449DC00E91E90 /* Template.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E20CC719D449DC00E91E90 /* Template.m */; };
+		26E20CCF19D44C0B00E91E90 /* SimpleRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E20CCE19D44C0B00E91E90 /* SimpleRenderer.m */; };
+		26E20CD219D44C6900E91E90 /* TemplateManagerWithRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E20CD119D44C6900E91E90 /* TemplateManagerWithRenderer.m */; };
+		26E20CD719D44D7000E91E90 /* CollaborativDecomposedTemplateManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E20CD619D44D7000E91E90 /* CollaborativDecomposedTemplateManagerTest.m */; };
+		26E20CDA19D44EFA00E91E90 /* SimpleRendererTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E20CD919D44EFA00E91E90 /* SimpleRendererTest.m */; };
 		39108F030E054DF1B9DEE08E /* libPods-FirstExerciseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0FB71928CE413981D3CCCB /* libPods-FirstExerciseTests.a */; };
 /* End PBXBuildFile section */
 
@@ -64,9 +69,18 @@
 		26E20CB819D41FA400E91E90 /* ContainsWhitespaceMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainsWhitespaceMatcher.m; sourceTree = "<group>"; };
 		26E20CBA19D4233900E91E90 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		26E20CBB19D4417300E91E90 /* ObjectWithDateTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectWithDateTest.m; sourceTree = "<group>"; };
-		26E20CBD19D4430B00E91E90 /* TemplateManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateManagerTest.m; sourceTree = "<group>"; };
 		26E20CBF19D4432700E91E90 /* TemplateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateManager.h; sourceTree = "<group>"; };
 		26E20CC019D4432700E91E90 /* TemplateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateManager.m; sourceTree = "<group>"; };
+		26E20CC419D4495100E91E90 /* FunctionalDecomposedTemplateManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionalDecomposedTemplateManagerTest.m; sourceTree = "<group>"; };
+		26E20CC619D449DC00E91E90 /* Template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Template.h; sourceTree = "<group>"; };
+		26E20CC719D449DC00E91E90 /* Template.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Template.m; sourceTree = "<group>"; };
+		26E20CCB19D44B9C00E91E90 /* TemplateRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplateRenderer.h; sourceTree = "<group>"; };
+		26E20CCD19D44C0B00E91E90 /* SimpleRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleRenderer.h; sourceTree = "<group>"; };
+		26E20CCE19D44C0B00E91E90 /* SimpleRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleRenderer.m; sourceTree = "<group>"; };
+		26E20CD019D44C6900E91E90 /* TemplateManagerWithRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateManagerWithRenderer.h; sourceTree = "<group>"; };
+		26E20CD119D44C6900E91E90 /* TemplateManagerWithRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateManagerWithRenderer.m; sourceTree = "<group>"; };
+		26E20CD619D44D7000E91E90 /* CollaborativDecomposedTemplateManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollaborativDecomposedTemplateManagerTest.m; sourceTree = "<group>"; };
+		26E20CD919D44EFA00E91E90 /* SimpleRendererTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleRendererTest.m; sourceTree = "<group>"; };
 		34D7CF9CA797464B9C48896E /* Pods-FirstExerciseTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstExerciseTests.xcconfig"; path = "Pods/Pods-FirstExerciseTests.xcconfig"; sourceTree = "<group>"; };
 		FD0FB71928CE413981D3CCCB /* libPods-FirstExerciseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstExerciseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -128,8 +142,8 @@
 				26E20CA519D4127200E91E90 /* Counter.m */,
 				26E20CA919D4142E00E91E90 /* LineCounter.h */,
 				26E20CAA19D4142E00E91E90 /* LineCounter.m */,
-				26E20CBF19D4432700E91E90 /* TemplateManager.h */,
-				26E20CC019D4432700E91E90 /* TemplateManager.m */,
+				26E20CC919D44B6900E91E90 /* Template1 */,
+				26E20CCC19D44BE700E91E90 /* Template2 */,
 			);
 			path = FirstExercise;
 			sourceTree = "<group>";
@@ -154,7 +168,8 @@
 				26E20CB719D41FA400E91E90 /* ContainsWhitespaceMatcher.h */,
 				26E20CB819D41FA400E91E90 /* ContainsWhitespaceMatcher.m */,
 				26E20CBB19D4417300E91E90 /* ObjectWithDateTest.m */,
-				26E20CBD19D4430B00E91E90 /* TemplateManagerTest.m */,
+				26E20CCA19D44B7400E91E90 /* Template1 */,
+				26E20CD819D44EE500E91E90 /* Template2 */,
 			);
 			path = FirstExerciseTests;
 			sourceTree = "<group>";
@@ -165,6 +180,46 @@
 				26E20C9419D40EC100E91E90 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26E20CC919D44B6900E91E90 /* Template1 */ = {
+			isa = PBXGroup;
+			children = (
+				26E20CBF19D4432700E91E90 /* TemplateManager.h */,
+				26E20CC019D4432700E91E90 /* TemplateManager.m */,
+				26E20CC619D449DC00E91E90 /* Template.h */,
+				26E20CC719D449DC00E91E90 /* Template.m */,
+			);
+			name = Template1;
+			sourceTree = "<group>";
+		};
+		26E20CCA19D44B7400E91E90 /* Template1 */ = {
+			isa = PBXGroup;
+			children = (
+				26E20CC419D4495100E91E90 /* FunctionalDecomposedTemplateManagerTest.m */,
+			);
+			name = Template1;
+			sourceTree = "<group>";
+		};
+		26E20CCC19D44BE700E91E90 /* Template2 */ = {
+			isa = PBXGroup;
+			children = (
+				26E20CCB19D44B9C00E91E90 /* TemplateRenderer.h */,
+				26E20CCD19D44C0B00E91E90 /* SimpleRenderer.h */,
+				26E20CCE19D44C0B00E91E90 /* SimpleRenderer.m */,
+				26E20CD019D44C6900E91E90 /* TemplateManagerWithRenderer.h */,
+				26E20CD119D44C6900E91E90 /* TemplateManagerWithRenderer.m */,
+			);
+			name = Template2;
+			sourceTree = "<group>";
+		};
+		26E20CD819D44EE500E91E90 /* Template2 */ = {
+			isa = PBXGroup;
+			children = (
+				26E20CD619D44D7000E91E90 /* CollaborativDecomposedTemplateManagerTest.m */,
+				26E20CD919D44EFA00E91E90 /* SimpleRendererTest.m */,
+			);
+			name = Template2;
 			sourceTree = "<group>";
 		};
 		B3172678CC194D599675B8C5 /* Frameworks */ = {
@@ -310,8 +365,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26E20CD219D44C6900E91E90 /* TemplateManagerWithRenderer.m in Sources */,
 				26E20CA319D4121900E91E90 /* Book.m in Sources */,
+				26E20CC819D449DC00E91E90 /* Template.m in Sources */,
 				26E20C8219D40EC100E91E90 /* ViewController.m in Sources */,
+				26E20CCF19D44C0B00E91E90 /* SimpleRenderer.m in Sources */,
 				26E20C7F19D40EC100E91E90 /* AppDelegate.m in Sources */,
 				26E20CC119D4432700E91E90 /* TemplateManager.m in Sources */,
 				26E20CA619D4127200E91E90 /* Counter.m in Sources */,
@@ -324,12 +382,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26E20CDA19D44EFA00E91E90 /* SimpleRendererTest.m in Sources */,
 				26E20CBC19D4417300E91E90 /* ObjectWithDateTest.m in Sources */,
+				26E20CC519D4495100E91E90 /* FunctionalDecomposedTemplateManagerTest.m in Sources */,
+				26E20CD719D44D7000E91E90 /* CollaborativDecomposedTemplateManagerTest.m in Sources */,
 				26E20CA819D412D100E91E90 /* CounterTest.m in Sources */,
 				26E20CAD19D4156500E91E90 /* LineCounterTest.m in Sources */,
 				26E20CB319D41DA500E91E90 /* StringTest.m in Sources */,
 				26E20CB919D41FA400E91E90 /* ContainsWhitespaceMatcher.m in Sources */,
-				26E20CBE19D4430B00E91E90 /* TemplateManagerTest.m in Sources */,
 				26E20CA019D40EE900E91E90 /* BookTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
