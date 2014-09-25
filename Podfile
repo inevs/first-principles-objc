@@ -6,5 +6,6 @@ end
 
 target "FirstExerciseTests", :exclusive => true do
 	pod "OCHamcrest"
+	pod "OCMockito"
 end
 

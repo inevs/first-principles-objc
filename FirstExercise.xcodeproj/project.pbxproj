@@ -22,6 +22,7 @@
 		26E20CAF19D4166500E91E90 /* TextMungerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E20CAE19D4166500E91E90 /* TextMungerTest.m */; };
 		26E20CB319D41DA500E91E90 /* StringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E20CB219D41DA500E91E90 /* StringTest.m */; };
 		26E20CB619D41E9200E91E90 /* TextMunger.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E20CB519D41E9200E91E90 /* TextMunger.m */; };
+		26E20CB919D41FA400E91E90 /* ContainsWhitespaceMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E20CB819D41FA400E91E90 /* ContainsWhitespaceMatcher.m */; };
 		39108F030E054DF1B9DEE08E /* libPods-FirstExerciseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0FB71928CE413981D3CCCB /* libPods-FirstExerciseTests.a */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,9 @@
 		26E20CB219D41DA500E91E90 /* StringTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringTest.m; sourceTree = "<group>"; };
 		26E20CB419D41E9200E91E90 /* TextMunger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextMunger.h; sourceTree = "<group>"; };
 		26E20CB519D41E9200E91E90 /* TextMunger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextMunger.m; sourceTree = "<group>"; };
+		26E20CB719D41FA400E91E90 /* ContainsWhitespaceMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainsWhitespaceMatcher.h; sourceTree = "<group>"; };
+		26E20CB819D41FA400E91E90 /* ContainsWhitespaceMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainsWhitespaceMatcher.m; sourceTree = "<group>"; };
+		26E20CBA19D4233900E91E90 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		34D7CF9CA797464B9C48896E /* Pods-FirstExerciseTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstExerciseTests.xcconfig"; path = "Pods/Pods-FirstExerciseTests.xcconfig"; sourceTree = "<group>"; };
 		FD0FB71928CE413981D3CCCB /* libPods-FirstExerciseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstExerciseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -87,6 +91,7 @@
 		26E20C6D19D40EC100E91E90 = {
 			isa = PBXGroup;
 			children = (
+				26E20CBA19D4233900E91E90 /* Podfile */,
 				26E20C7819D40EC100E91E90 /* FirstExercise */,
 				26E20C9219D40EC100E91E90 /* FirstExerciseTests */,
 				26E20C7719D40EC100E91E90 /* Products */,
@@ -145,6 +150,8 @@
 				26E20CAC19D4156500E91E90 /* LineCounterTest.m */,
 				26E20CAE19D4166500E91E90 /* TextMungerTest.m */,
 				26E20CB219D41DA500E91E90 /* StringTest.m */,
+				26E20CB719D41FA400E91E90 /* ContainsWhitespaceMatcher.h */,
+				26E20CB819D41FA400E91E90 /* ContainsWhitespaceMatcher.m */,
 			);
 			path = FirstExerciseTests;
 			sourceTree = "<group>";
@@ -318,6 +325,7 @@
 				26E20CAD19D4156500E91E90 /* LineCounterTest.m in Sources */,
 				26E20CAF19D4166500E91E90 /* TextMungerTest.m in Sources */,
 				26E20CB319D41DA500E91E90 /* StringTest.m in Sources */,
+				26E20CB919D41FA400E91E90 /* ContainsWhitespaceMatcher.m in Sources */,
 				26E20CA019D40EE900E91E90 /* BookTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,12 +7,17 @@
 
 @implementation CounterTest
 
+-(void)setUp {
+	[Counter reset];
+}
+
 - (void)testCanBeIncremented {
 	[Counter increment];
 	XCTAssertEqual(Counter.value, 1);
 }
 
 - (void)testCanBeIncrementedMultipleTimes {
+	[Counter increment];
 	[Counter increment];
 	XCTAssertEqual(Counter.value, 2);
 }

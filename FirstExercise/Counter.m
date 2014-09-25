@@ -4,12 +4,15 @@ static 	NSInteger __value;
 
 @implementation Counter
 
-+(void)increment {
++ (void)increment {
 	__value += 1;
 }
 
-+(NSInteger)value {
++ (NSInteger)value {
 	return __value;
 }
 
++ (void)reset {
+	__value = 0;
+}
 @end

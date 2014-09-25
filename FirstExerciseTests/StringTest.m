@@ -1,6 +1,10 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
+#define HC_SHORTHAND
+#import "OCHamcrest/OCHamcrest.h"
+#import "ContainsWhitespaceMatcher.h"
+
 @interface StringTest : XCTestCase
 
 @end
@@ -9,7 +13,6 @@
 
 - (void)testContainsWhiteSpace {
 	NSString *string = @"foo bar";
-	NSRange range = [string rangeOfCharacterFromSet:NSCharacterSet.whitespaceAndNewlineCharacterSet options:0];
-	XCTAssertTrue(range.location != NSNotFound);
+	assertThat(string, containsWhitespace());
 }
 @end

@@ -4,7 +4,7 @@
 
 + (NSInteger)value;
 + (void)increment;
-
++ (void)reset;
 
 
 @end

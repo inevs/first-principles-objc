@@ -2,20 +2,33 @@
 #import <XCTest/XCTest.h>
 #import "Book.h"
 
-@interface BookTest : XCTestCase
+@interface BookTest : XCTestCase {
+	Book *newBook;
+	Book *borrowedBook;
+}
 @end
 
 @implementation BookTest
 
-- (void)testCanBeLentAndReturned {
-	Book *book = [[Book alloc] init];
-	XCTAssert([book isLendable]);
-	[book borrow];
-	XCTAssertFalse([book isLendable]);
-	[book giveBack];
-	XCTAssert([book isLendable]);
+-(void)setUp {
+	newBook = [[Book alloc] init];
+	borrowedBook = [[Book alloc] init];
+	[borrowedBook borrow];
 }
 
+- (void)testCanBeLentByDefault {
+	XCTAssert([newBook isLendable]);
+}
+
+- (void)testBorrowedBooksCantBeLent {
+	[newBook borrow];
+	XCTAssertFalse([newBook isLendable]);
+}
+
+- (void)testBorrowedBooksCanBeLentAfterReturn {
+	[borrowedBook giveBack];
+	XCTAssert([borrowedBook isLendable]);
+}
 @end
 
 

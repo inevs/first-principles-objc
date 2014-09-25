@@ -13,7 +13,7 @@
 }
 
 - (NSInteger)count {
-	NSArray *lines = [_string componentsSeparatedByString:@"/n"];
+	NSArray *lines = [_string componentsSeparatedByString:@"\n"];
 	return lines.count;
 }
 
